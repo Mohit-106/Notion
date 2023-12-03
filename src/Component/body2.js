@@ -4,8 +4,7 @@ import { FaRobot, FaBook, FaBullseye, FaRegFileAlt } from "react-icons/fa";
 import {
   AiOutlineStar,
   AiOutlineBook,
-  AiOutlineFundProjectionScreen,
-  AiOutlineFileText,
+  AiOutlineFundProjectionScreen
 } from "react-icons/ai";
 
 const ButtonBox = () => {

@@ -1,6 +1,4 @@
-import React, { useState } from "react";
 import "../Styles/body3.css";
-import { FaRobot, FaBook, FaBullseye, FaRegFileAlt } from "react-icons/fa";
 import {
   FaCode,
   FaPalette,
