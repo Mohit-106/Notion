@@ -4,8 +4,9 @@
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
   height: 3rem;
+  width: 95vw;
 }
 
 /* Logo */
@@ -146,7 +147,7 @@
 
   .Hamburger{
     display: flex;
-    margin-left:28rem;
+    margin-left:32rem;
   }
 
   .logo img{
