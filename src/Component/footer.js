@@ -109,24 +109,24 @@ const Footer = () => {
                 >
                   French
                 </button>
-                {/* <button
+                <button
                   className="language-option"
-                  onClick={() => handleLanguageChange("Spanish")}
+                  onClick={() => handleLanguageChange("German")}
                 >
                   German
                 </button>
                 <button
                   className="language-option"
-                  onClick={() => handleLanguageChange("Spanish")}
+                  onClick={() => handleLanguageChange("Japanese")}
                 >
                   Japanese
                 </button>
                 <button
                   className="language-option"
-                  onClick={() => handleLanguageChange("Spanish")}
+                  onClick={() => handleLanguageChange("Korean")}
                 >
                   Korean
-                </button> */}
+                </button>
               </div>
             )}
           </div>

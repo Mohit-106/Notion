@@ -191,8 +191,8 @@
     }
 
     .avtr img{
-      width:28rem;
-      margin-bottom: 3rem;
+      width:26rem;
+      margin: 3rem;      
     }
 
     .tbuttons{
@@ -204,7 +204,10 @@
     .stxt{
       display: none;
     }
-   
+
+    .avtr2 img{
+      width:25rem;
+    }
     
   
   }
