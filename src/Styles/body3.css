@@ -211,3 +211,40 @@
     
   
   }
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .mtxt{
+      font-weight: bold;
+      font-size: 24px;
+      margin: 20px,5px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .avtr img{
+      width:26rem;
+      margin: 3rem;      
+    }
+
+    .tbuttons{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .stxt{
+      display: none;
+    }
+
+    .avtr2 img{
+      width:25rem;
+    }
+    
+  }
+
+

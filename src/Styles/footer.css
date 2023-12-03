@@ -139,3 +139,40 @@
     height: 100vh;
   }
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo2{
+    display: none;
+  }
+  .language-dropdown{
+    display: none;
+  }
+  .icns{
+    display: none;
+  }
+  .footer-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap:3rem;
+    margin-right: 12rem;
+  }
+  .footer-row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap:3rem;
+    margin-right: 12rem;
+    height: 100vh;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+}
