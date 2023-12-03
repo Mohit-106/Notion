@@ -1,0 +1,141 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+  }
+  
+  .footer-column {
+    flex: 1;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+.icns{
+  margin-top: 1rem;
+  margin-right: 2.5rem;
+}
+
+.logo2 img{
+  margin-left: 0.8rem;
+}
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 25rem;
+}
+
+.dropdown-toggle {
+  background-color: #f6f5f4;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.globe-icon {
+  margin-right: 5px;
+}
+
+.caret {
+  margin-left: 5px;
+}
+
+.dropdown-contents {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.language-option {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin:2px;
+}
+
+.language-option:hover {
+  background-color: #eaeaea;
+}
+
+
+.footer-row2{
+  display: flex;
+    justify-content: center;
+    
+    margin-left: 10rem;
+    margin-bottom: 20rem;
+}
+
+.footer-column2 {
+  flex: 1;
+  margin-top: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+  .logo2{
+    display: none;
+  }
+  .language-dropdown{
+    display: none;
+  }
+  .icns{
+    display: none;
+  }
+  .footer-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap:3rem;
+    margin-right: 12rem;
+  }
+  .footer-row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap:3rem;
+    margin-right: 12rem;
+    height: 100vh;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+}

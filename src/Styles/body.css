@@ -1,0 +1,89 @@
+.m-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.t1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.t2{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.t3{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.t1,
+.t2,
+.t3 {
+  margin: 0; /* Reset the default margin for paragraphs */
+}
+
+.get-notion-free {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(85, 85, 85, 0.3);
+  }
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.img{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .t1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .t2{
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 3rem;
+    }
+    
+    .t3{
+        font-weight: 500;
+        font-size: 0.5rem;
+    }
+    .m-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+    }
+
+    img{
+        width: 20rem;
+    }
+
+    .img{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

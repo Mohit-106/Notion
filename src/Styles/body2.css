@@ -1,0 +1,139 @@
+.button-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    margin-top: 5rem;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  button {
+    background-color: #F6F5F4;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+  }
+  #button1{
+    width:14rem;
+    height: 9rem;
+    border-radius: 1rem;
+  }
+  #button2{
+    width:14rem;
+    height: 9rem;
+    border-radius: 1rem;
+  }
+  #button3{
+    width:14rem;
+    height: 9rem;
+    border-radius: 1rem;
+  }
+  #button4{
+    width:14rem;
+    height: 9rem;
+    border-radius: 1rem;
+  }
+  
+  .active {
+    background-color: white;
+    color: black;
+  }
+  
+  #content-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    opacity: 0.75;
+    transform: scale(0.85);
+    transition: all 0.5s ease-in-out;
+    width:58rem;
+    border-radius: 6px;
+    height: 40rem;
+  }
+  
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside p{
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: 500;
+}
+
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-bottom: 20px;
+    margin-right: 2rem;
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .inside_Box{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+  }
+
+
+
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #content-box {
+    display: none;
+  }
+  
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* .icon-container {
+    display: none;
+  } */
+  #content-box {
+    display: none;
+  }
+  
+}
+
+
