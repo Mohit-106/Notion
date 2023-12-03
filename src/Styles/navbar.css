@@ -3,10 +3,11 @@
 .navbar {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
-  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   height: 3rem;
-  width: 95vw;
+  width: 100vw;
+  overflow: hidden;
 }
 
 /* Logo */
@@ -147,11 +148,12 @@
 
   .Hamburger{
     display: flex;
-    margin-left:32rem;
+    margin-left:28rem;
   }
 
   .logo img{
     margin-top: 1rem;
+    margin-left: 2rem;
   }
 
 }
