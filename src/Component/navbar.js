@@ -97,6 +97,7 @@ const Navbar = () => {
           <GiHamburgerMenu size={30} /> {/* Change size as needed */}
         </div>
       </div>
+     
     </nav>
   );
 };
