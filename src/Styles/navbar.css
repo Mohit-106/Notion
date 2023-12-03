@@ -1,11 +1,19 @@
 /* Navbar container */
 
+body {
+  overflow-x: hidden;
+}
+
+
 .navbar {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  height: 3rem;
+  height: 2rem;
   width: 100vw;
   overflow: hidden;
 }
@@ -63,7 +71,7 @@
 .right-nav {
   display: flex;
   align-items: center;
-  margin-left: 13rem;
+  margin-left: 14rem;
   /* margin-bottom: 1rem; */
 }
 
@@ -130,6 +138,9 @@
     display: flex;
     margin-left: 4rem;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
 
 
@@ -154,6 +165,10 @@
   .logo img{
     margin-top: 1rem;
     margin-left: 2rem;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 
 }
